@@ -6,5 +6,7 @@ function isEvenNumber(num) {
   }
 }
 
+const isEvenNumber = (num) => num % 2 === 0;
+
 let result1 = isEvenNumber(45);
 console.log(result1);

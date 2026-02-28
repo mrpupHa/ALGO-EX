@@ -1,6 +1,6 @@
 function reverseString(text) {
   let result = [];
-  for (let i = text.length; i >= 0; i--) {
+  for (let i = text.length - 1; i >= 0; i--) {
     result.push(text[i]);
   }
   return result.join("");
